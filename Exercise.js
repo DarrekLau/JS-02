@@ -1,7 +1,7 @@
 // Exercise #1
 
 function payment(amount) {
-  let totalAmount = amount + 3 + amount * 0.01;
+  const totalAmount = amount + 3 + amount * 0.01;
   return totalAmount;
   console.log(totalAmount);
 }
@@ -19,7 +19,7 @@ friends("John", "Mary", "Amy");
 
 // part 2
 function age(birthYr) {
-  let year = new Date().getFullYear();
+  const year = new Date().getFullYear();
 
   const age = year - birthYr;
   return age;
